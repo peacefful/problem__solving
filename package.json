@@ -1,0 +1,21 @@
+{
+  "name": "sparring",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "format": "prettier --write src/"
+  },
+  "devDependencies": {
+    "eslint": "^8.40.0",
+    "prettier": "2.8.8",
+    "vite": "^4.3.2"
+  },
+  "dependencies": {
+    "easytimer.js": "^4.5.4",
+    "sass": "^1.62.1"
+  }
+}
