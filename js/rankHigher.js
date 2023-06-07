@@ -161,7 +161,7 @@ function goodVsEvil(good, evil) {
   if (goodSum > evilSum) {
     return 'Battle Result: Good triumphs over Evil'
   } else if (goodSum < evilSum) {
-    ;('Battle Result: Evil eradicates all trace of Good')
+    ('Battle Result: Evil eradicates all trace of Good')
   } else {
     return 'Battle Result: No victor on this battle field'
   }

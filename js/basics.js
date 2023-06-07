@@ -82,3 +82,15 @@ class Kata {
     return length * width * height
   }
 }
+
+function sum (numbers) {
+	"use strict";
+	
+	if (numbers === []) {
+		return 0
+	} else {
+		return numbers.reduce((acc, sum) => acc + sum, 0)
+	}
+}
+
+console.log(sum([1,4,0.5,33]));
